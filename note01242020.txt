@@ -1,0 +1,53 @@
+    1  pwd
+    2  ls
+    3  pwd
+    4  ls
+    5  clear
+    6  mkdir project1
+    7  cd project1/
+    8  git
+    9  git -version
+   10  clear
+   11  git init
+   12  ls -a
+   13  cat >> test1.txt
+   14  git status
+   15  git add .
+   16  git status
+   17  clear
+   18  git commit -m "initial commit for the project"
+   19  git status
+   20  git branch
+   21  git checkout -b parviz1
+   22  git branch
+   23  ls
+   24  git status
+   25  clear
+   26  git master
+   27  git checkout master
+   28  git --version
+   29  git config --global user.name "ParvizAK"
+   30  git config --global user.email "parviz.akobirshoev@gmail.com"
+   31  git commit -m "branch first commit"
+   32  git branch
+   33  git checkout master
+   34  git checkout -b master
+   35  git branch
+   36  git status
+   37  ls
+   38  cat >> test1.txt
+   39  git status
+   40  git add .
+   41  git commit
+   42  git branch
+   43  git checkout parviz1
+   44  git checkout -b parviz2
+   45  git branch parviz3
+   46  git branch
+   47  git checkout master
+   48  git branch parviz
+   49  git branch
+   50  git branch -d parviz
+   51  git branch
+   52  git checkout master
+   53  history >> note01242020.txt
